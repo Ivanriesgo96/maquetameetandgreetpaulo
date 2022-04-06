@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet and Greet - Paulo Londra </title>
+    <link rel="stylesheet" href="estilos.css">
+
+
+</head>
+<body>
+    <header> 
+        <div  class="headercontainer">
+            <div class="logocontainer"> 
+                <img src="Imagenes/logo.png" alt="logo" class="logo"> 
+            </div>
+        </div>
+    </header>
+
+    <div> 
+        <img src="Imagenes/meet.png" alt="meet" class="meet">
+    </div>
+    <div class="text">
+        <p class="lugar"> Un Meet & Greet te permite conocer a tu artista favorito, y ahora podrás hacerlo posible. El evento será en el hipodromo de palermo el 23 de abril a las 19 hs.
+        </p>
+    </div>
+    <div class="participa"> 
+        <div class="formcontainer"> 
+            <p class="sorteo">Participá del sorteo y acompaña a Paulo en su vuelta a la música.
+                Completá los siguientes datos: </p>  
+        
+                <form method= "get" action="respuestareserva.html" class="raffle"> 
+                    <p class="inputclass"><label for="nombre"> Nombre y Apellido: </label> <input class="input" type="text" name="nombre" required> </p>
+                    <p class="inputclass"><label for="email">Email: </label><input class="input" type="email" name="email" required>  </p>
+                    <p class="inputclass"><label for="tel">Teléfono: </label> <input class="input" type="text" name="tel" required>  </p>
+                    <p class="inputclass"><label for="numero">¿Cuando nacio Paulo?</label>
+                    <select name="numero" required class="input"> 
+                        <option value="-1">seleccione año </option>
+                        <option value="1996">1996 </option>
+                        <option value="1998">1998 </option>
+                        <option value="1999">1999 </option>
+                        <option value="2000">2000 </option>
+                    </select>
+                    </p>
+                    <p class="inputclass"><label for="numero">¿Cual es su tema más escuchado?</label>
+                        <select name="numero" required class="input">
+                            <option value="-1">seleccione tema </option>
+                            <option value="Condenado para el millon">Condenado para el millon </option>
+                            <option value="Nena Maldición">Nena Maldición </option>
+                            <option value="Adan y Eva">Adan y Eva </option>
+                            <option value="Te Amo">Te Amo </option>
+                            </select>
+                        </p>
+                        <p><label> </label><input class="bottom" type= "submit" name="envio" value= "Participar"></p>
+            
+                </form>
+        </div>
+    
+        <div class="sideimgcontainer"> 
+            <img src="Imagenes/7.png" alt="7" class="sideimg">
+            <img src="Imagenes/8.png" alt="8" class="sideimg">
+            <img src="Imagenes/9.png" alt="9" class="sideimg">
+
+        </div>
+           
+    </div>
+
+    <footer>
+        <div class="redes"> <a href= "https://www.facebook.com/"> <img src="Imagenes/Fb.jpg" alt="Facebook" /> </a> </div>
+      <p>Contactate con nosotros - Políticas de uso </p>
+    </footer>
+</body>
+</html>

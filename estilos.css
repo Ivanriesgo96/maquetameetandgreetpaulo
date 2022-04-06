@@ -1,0 +1,27 @@
+*{padding: 0;margin: 0%;}
+.headercontainer {height: 100px;width: 100%;background-color:#4a4b4d;display: flex;justify-content: center; }
+.logo { width: 150px;}
+.logocontainer {display: flex; align-items: center; justify-content: center;}
+.meet {width: 100%;}
+.text {width: 100%;background-color:#020202}
+.lugar{ color: aliceblue; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:35px;padding: 30px;text-transform: uppercase;}
+.participa {width: 100%;background-color:#020202; display: flex;margin-bottom: 20px;}
+.sorteo{ color: aliceblue; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 30px;margin-bottom: 30px;}
+.raffle {color: aliceblue; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 20px;}
+.formcontainer {width: 50%;padding: 30px;}
+.sideimgcontainer {width: 50% ;display: flex; flex-direction: column; align-items: center;}
+.sideimg {width: 325px; margin-bottom: 20px;}
+.inputclass {display: flex;flex-direction: column;margin-bottom: 40px;}
+.input {width: 180px; height: 30px;}
+.bottom {padding: 20px 40px; background-color: #319999; color: aliceblue; font-size: 20px; border: none; border-radius: 40px;}
+
+
+
+
+
+
+
+
+footer {background-color:#020202;color: white;text-align: center;padding: 5px;width: 100%;box-sizing: border-box;height: 35px; position: fixed; bottom: 0;left: 0}
+.redes {position: fixed;right: 0; top: 50%; background-color: transparent}
+.redes img {width: 40px}
